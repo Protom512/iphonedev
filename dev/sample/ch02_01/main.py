@@ -1,3 +1,5 @@
+import os
+os.environ['KIVY_NO_FILELOG'] = ''
 import kivy
 kivy.require('1.7.2')
 
