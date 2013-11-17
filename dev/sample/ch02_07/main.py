@@ -24,7 +24,7 @@ class PythoniOS(App):
 			
 		def build(self):
 			print '-------------------'
-			print config.getdefaults('section_1')
+			#print self.config.get('section_1')
 			print self.get_application_config()
 			print self.config.get( 'section_1' , 'key_1' )
 			print '-------------------'
